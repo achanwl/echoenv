@@ -1,4 +1,4 @@
-FROM golang:1.13
+FROM docker.io/golang:1.13
 WORKDIR /go/src/gitlab.com/simonkrenger/echoenv
 RUN go get github.com/gin-gonic/gin
 COPY echoenv.go .
